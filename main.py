@@ -3,7 +3,7 @@ from google.genai import types
 
 import PIL.Image
 
-client = genai.Client(api_key="AIzaSyAmXGSgtKZ86LoQOJjiYP6tpJ7jojfISYY")
+client = genai.Client(api_key="APIKEY")
 # from google import genai
 def extract_attendance(image_path):
     image = PIL.Image.open(image_path)
